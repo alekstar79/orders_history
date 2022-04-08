@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>orders_history</id>
+    <version>1.0.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+
+    <compatibility>
+        <core_version>
+            <min>4.14</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:orders_history` (
+                `log_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+                `order_id` int(11) NOT NULL,
+                `user_id` int(11) NOT NULL DEFAULT 0,
+                `timestamp` int(11) unsigned NOT NULL DEFAULT 0,
+                `status_old` text DEFAULT '',
+                `status_new` text DEFAULT '',
+                PRIMARY KEY (`log_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
+    </queries>
+</addon>

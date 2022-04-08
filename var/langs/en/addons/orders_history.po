@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::orders_history"
+msgid "Orders history"
+msgstr "History of changing order statuses"
+
+msgctxt "Addons::description::my_changes"
+msgid "Module for tracking changes in the order status"
+msgstr "Module for tracking changes in the order status"
+
+msgctxt "Languages::orders_history"
+msgid "History of changing orders"
+msgstr "History of changing orders"
+
+msgctxt "Languages::orders_history_menu_description"
+msgid "Tracking history of order status changes"
+msgstr "Tracking history of order status changes"
+
+msgctxt "Languages::orders_history_order_created"
+msgid "The order has been created"
+msgstr "The order has been created"
+
+msgctxt "Languages::orders_history_status_changed"
+msgid "The status has been changed"
+msgstr "The status has been changed"
+
+msgctxt "Languages::orders_history_order_changed"
+msgid "The order has been changed"
+msgstr "The order has been changed"
+
+msgctxt "Languages::orders_history_order_deleted"
+msgid "The order has been removed"
+msgstr "The order has been removed"
+
+msgctxt "Languages::orders_history_status_old"
+msgid "Old status"
+msgstr "Old status"
+
+msgctxt "Languages::orders_history_status_new"
+msgid "New status"
+msgstr "New status"
