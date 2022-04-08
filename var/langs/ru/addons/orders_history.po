@@ -44,3 +44,47 @@ msgstr "Старый статус"
 msgctxt "Languages::orders_history_status_new"
 msgid "New status"
 msgstr "Новый статус"
+
+msgctxt "Languages::orders_history_paid"
+msgid "Paid"
+msgstr "Обработан"
+
+msgctxt "Languages::orders_history_complete"
+msgid "Complete"
+msgstr "Выполнен"
+
+msgctxt "Languages::orders_history_open"
+msgid "Open"
+msgstr "Открыт"
+
+msgctxt "Languages::orders_history_failed"
+msgid "Failed"
+msgstr "Неудача"
+
+msgctxt "Languages::orders_history_declined"
+msgid "Declined"
+msgstr "Отклонен"
+
+msgctxt "Languages::orders_history_backordered"
+msgid "Backordered"
+msgstr "Отложен"
+
+msgctxt "Languages::orders_history_canceled"
+msgid "Canceled"
+msgstr "Аннулирован"
+
+msgctxt "Languages::orders_history_waiting_call"
+msgid "Waiting call"
+msgstr "Ожидает звонка"
+
+msgctxt "Languages::orders_history_hold"
+msgid "Hold"
+msgstr "На удержании"
+
+msgctxt "Languages::orders_history_returned"
+msgid "Returned"
+msgstr "Возврашено"
+
+msgctxt "Languages::orders_history_incomplete"
+msgid "Incomplete"
+msgstr "Незавершенный"

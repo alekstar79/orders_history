@@ -28,43 +28,22 @@ function fn_get_orders_history(): array
     );
 }
 
-function fn_orders_history_status($status, $lang_code = CART_LANGUAGE)
+function fn_orders_history_status($status): string
 {
-    switch ($lang_code) {
-        case 'ru':
-            return [
-                'P' => 'Обработан',
-                'C' => 'Выполнен',
-                'O' => 'Открыт',
-                'F' => 'Неудача',
-                'D' => 'Отклонен',
-                'B' => 'Отложен',
-                'I' => 'Аннулирован',
-                'Y' => 'Ожидает звонка',
-                'A' => 'На удержании',
-                'E' => 'Возвращено',
-                'N' => 'Незавершенный',
-                'T' => '_parent_order'
-            ][$status];
-
-        case 'en':
-            return [
-                'P' => 'Paid',
-                'C' => 'Complete',
-                'O' => 'Open',
-                'F' => 'Failed',
-                'D' => 'Declined',
-                'B' => 'Backordered',
-                'I' => 'Canceled',
-                'Y' => 'Waiting call',
-                'A' => 'Hold',
-                'E' => 'Returned',
-                'N' => 'Incomplete',
-                'T' => '_parent_order'
-            ][$status];
-    }
-
-    return $status;
+    return [
+        'P' => 'paid',
+        'C' => 'complete',
+        'O' => 'open',
+        'F' => 'failed',
+        'D' => 'declined',
+        'B' => 'backordered',
+        'I' => 'canceled',
+        'Y' => 'waiting_call',
+        'A' => 'hold',
+        'E' => 'returned',
+        'N' => 'incomplete',
+        'T' => '_parent_order'
+    ][$status];
 }
 
 /** Hook */

@@ -44,3 +44,47 @@ msgstr "Old status"
 msgctxt "Languages::orders_history_status_new"
 msgid "New status"
 msgstr "New status"
+
+msgctxt "Languages::orders_history_paid"
+msgid "Paid"
+msgstr "Paid"
+
+msgctxt "Languages::orders_history_complete"
+msgid "Complete"
+msgstr "Comlete"
+
+msgctxt "Languages::orders_history_open"
+msgid "Open"
+msgstr "Open"
+
+msgctxt "Languages::orders_history_failed"
+msgid "Failed"
+msgstr "Failed"
+
+msgctxt "Languages::orders_history_declined"
+msgid "Declined"
+msgstr "Declined"
+
+msgctxt "Languages::orders_history_backordered"
+msgid "Backordered"
+msgstr "Backordered"
+
+msgctxt "Languages::orders_history_canceled"
+msgid "Canceled"
+msgstr "Canceled"
+
+msgctxt "Languages::orders_history_waiting_call"
+msgid "Waiting call"
+msgstr "Waiting call"
+
+msgctxt "Languages::orders_history_hold"
+msgid "Hold"
+msgstr "Hold"
+
+msgctxt "Languages::orders_history_returned"
+msgid "Returned"
+msgstr "Returned"
+
+msgctxt "Languages::orders_history_incomplete"
+msgid "Incomplete"
+msgstr "Incomplete"

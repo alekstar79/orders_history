@@ -32,11 +32,11 @@
                         </td>
 
                         <td class="wrap" data-th="{__("status_old")}">
-                            {$log.status_old|fn_orders_history_status}
+                            {__("orders_history_{$log.status_old|fn_orders_history_status}")}
                         </td>
 
                         <td class="wrap" data-th="{__("status_new")}">
-                            {$log.status_new|fn_orders_history_status}
+                            {__("orders_history_{$log.status_new|fn_orders_history_status}")}
                         </td>
 
                         <td data-th="{__("user")}">
