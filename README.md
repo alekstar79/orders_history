@@ -1,1 +1,1 @@
-# orders_history
+# Status tracking module for cs-cart
